@@ -13,7 +13,7 @@
           "script": {
             "exec": [
               "pm.test(\"Body matches string\", () => {",
-              "    pm.expect(pm.response.text()).to.contain(\"Hello Kubernetes\")",
+              "    pm.expect(pm.response.text()).to.contain(\"Hello\")",
               "})",
               "",
               "pm.test(\"Body matches string\", () => {",
@@ -28,10 +28,10 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://hello-kubernetes-service.default",
+          "raw": "http://greeting-app-svc.default",
           "protocol": "http",
           "host": [
-            "hello-kubernetes-service",
+            "greeting-app-svc",
             "default"
           ]
         }

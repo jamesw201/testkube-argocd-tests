@@ -28,10 +28,11 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://greeting-app-svc.default",
+          "raw": "http://greeting-app-svc.staging",
           "protocol": "http",
           "host": [
             "greeting-app-svc",
+            "staging",
             "default"
           ]
         }
